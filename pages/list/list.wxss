@@ -1,0 +1,58 @@
+/* pages/list/list.wxss */
+.search{
+  margin: 25rpx 35rpx;
+  background-color:white;
+  border-radius: 10rpx;
+  display: flex;
+  flex-wrap: wrap;
+}
+.search input {
+  margin: 10rpx 20rpx;
+  font-size: 32rpx;
+  width: 580rpx;
+}
+.search icon{
+  margin: auto;
+}
+
+
+.item{
+  height: 220rpx;
+  display: flex;
+  /* flex-wrap: wrap; */
+  background-color: white;
+  border:1rpx solid #eee;
+}
+
+.item image{
+  display: block;
+  margin: 20rpx;
+  height: 160rpx;
+  width: 160rpx;
+}
+
+.score{
+  margin-top: 10rpx;
+  margin-right: 10rpx;
+  background-color: red;
+  height: 40rpx;
+  width: 60rpx;
+  border-radius:40%;
+  font-size: 25rpx;
+  color: white;
+  text-align: center;
+  line-height: 40rpx;
+
+}
+.meta{
+  width: 480rpx;
+  font-size: 25rpx;
+  color:#666;
+}
+
+.name{
+  font-size: 35rpx;
+  color:black;
+}
+
+

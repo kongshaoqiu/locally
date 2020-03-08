@@ -1,0 +1,52 @@
+/* pages/index/index.wxss */
+.slides {
+  height:380rpx;
+}
+
+.slides navigator,
+.slides image {
+  height: 100%;
+  width: 100%;
+}
+
+.grids{
+  background-color:#fff;
+  display:flex;
+  flex-wrap:wrap;
+  color:#666;
+  font-size:28rpx;
+}
+
+.grids .item{
+  display:flex;
+  flex-direction:column;
+  width:250rpx;
+  height:250rpx;
+  justify-content: center;
+  align-items:center;
+  border:1rpx solid #eee;
+  box-sizing:border-box;
+}
+
+.grids .item image{
+  width:70rpx;
+  height:70rpx;
+  margin-bottom:10rpx;
+}
+
+.links{
+  background-color: #fff;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  
+}
+
+.links image{
+  margin:10rpx 0rpx;
+  width:360rpx;
+  height:230rpx;
+  border:5rpx solid #fff;
+}
+
+
